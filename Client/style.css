@@ -1,0 +1,13 @@
+table,
+th,
+td {
+	border: thin solid #000000;
+	border-collapse: collapse;
+	background-color: #eeeeee;
+	margin: 1em;
+	padding: 0.5em;
+}
+
+div {
+	margin: 0.5em;
+}

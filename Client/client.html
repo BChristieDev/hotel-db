@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Client</title>
+	</head>
+	<body>
+		<h1>Hotel Test Client</h1>
+
+		<a href="http://localhost:8080/api/rooms">Get Rooms</a>
+
+		<table id="guestInfo">
+		</table>
+
+		<div>
+			<h2 id="currentPageNo"></h1>
+			<h2 id="totalPageNo"></h2>
+			<button id="sortFirstName">Sort First Name: A-Z</button>
+			<button id="prevPage">Previous Page</button>
+			<button id="nextPage">Next Page</button>
+		</div>
+
+		<form action="#">
+			<div>
+				<label for="inputPageNo">Enter Page:</label>
+				<input type="text" id="inputPageNo">
+				<button id="confirmPageNo">Confirm Page</button>
+			</div>
+		</form>
+
+		<form action="#">
+			<div>
+				<label for="inputSort">Enter Sort:</label>
+				<input type="text" id="inputSort">
+				<button id="confirmSort">Confirm Sort</button>
+			</div>
+		</form>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
